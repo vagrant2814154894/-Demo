@@ -1,16 +1,16 @@
 ﻿namespace FormServerReport_报表控件调用服务器报表
 {
-    partial class Form1
+    partial class FormServerReport
     {
         /// <summary>
-        /// 必需的设计器变量。
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// 清理所有正在使用的资源。
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Windows 窗体设计器生成的代码
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// 设计器支持所需的方法 - 不要
-        /// 使用代码编辑器修改此方法的内容。
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -33,22 +33,25 @@
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Location = new System.Drawing.Point(12, 12);
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Remote;
             this.reportViewer1.ServerReport.ReportServerUrl = new System.Uri("", System.UriKind.Relative);
-            this.reportViewer1.Size = new System.Drawing.Size(788, 352);
+            this.reportViewer1.ShowParameterPrompts = false;
+            this.reportViewer1.Size = new System.Drawing.Size(1054, 619);
             this.reportViewer1.TabIndex = 0;
             // 
-            // Form1
+            // FormServerReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(812, 376);
+            this.ClientSize = new System.Drawing.Size(1054, 619);
             this.Controls.Add(this.reportViewer1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "FormServerReport";
+            this.Text = "FormServerReport";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormServerReport_Load);
             this.ResumeLayout(false);
 
         }
@@ -58,4 +61,3 @@
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }
-

@@ -6,3 +6,4 @@ D:\-Demo\BI_Deb_Studio报表开发与部署\FormServerReport_报表控件调用�
 D:\-Demo\BI_Deb_Studio报表开发与部署\FormServerReport_报表控件调用服务器报表\obj\Debug\FormServerReport_报表控件调用服务器报表.csproj.GenerateResource.Cache
 D:\-Demo\BI_Deb_Studio报表开发与部署\FormServerReport_报表控件调用服务器报表\obj\Debug\FormServerReport_报表控件调用服务器报表.exe
 D:\-Demo\BI_Deb_Studio报表开发与部署\FormServerReport_报表控件调用服务器报表\obj\Debug\FormServerReport_报表控件调用服务器报表.pdb
+D:\-Demo\BI_Deb_Studio报表开发与部署\FormServerReport_报表控件调用服务器报表\obj\Debug\FormServerReport_报表控件调用服务器报表.FormServerReport.resources

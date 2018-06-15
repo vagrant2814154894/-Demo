@@ -9,25 +9,21 @@ using System.Windows.Forms;
 using Microsoft.Reporting.WinForms;
 using System.Net;
 
-
 namespace FormServerReport_报表控件调用服务器报表
 {
-    /// <summary>
-    /// 需要继续努力
-    /// </summary>
-    public partial class Form1 : Form
+    public partial class FormServerReport : Form
     {
         static Uri ServerUrl { get; set; }
         static NetworkCredential NetworkCredential { get; set; }
         public string ReportPath { get; set; }
         public List<ReportParameter> ReportParameters { get; private set; }
 
-        public Form1()
+        public FormServerReport()
         {
             InitializeComponent();
             ReportParameters = new List<ReportParameter>();
 
-            //Init();
+            Init();
         }
 
         public void AddParameter(string name, DateTime value)
@@ -45,38 +41,32 @@ namespace FormServerReport_报表控件调用服务器报表
             ReportPath = "/EtcCenterReports/" + name;
         }
 
-        //public static void Init()
-        //{
-        //    COMMON.CommonClass common = COMMON.CommonClass.GetInstance();
-        //    if (ServerUrl == null)
-        //    {
-        //        ServerUrl = new Uri(EtcSysParamData.GetParam("N_ReportServer"));
-        //    }
-        //    if (NetworkCredential == null)
-        //    {
-        //        NetworkCredential = new NetworkCredential("EtcReporter", "etcsupercomputer");
-        //    }
-        //}
-
-        private void Form1_Load(object sender, EventArgs e)
+        public static void Init()
         {
             //COMMON.CommonClass common = COMMON.CommonClass.GetInstance();
-            //ServerReport report = this.reportViewer1.ServerReport;
+            if (ServerUrl == null)
+            {
+                ServerUrl = new System.Uri("http://192.168.1.105/reportserver", System.UriKind.Absolute);
+            }
+            if (NetworkCredential == null)
+            {
+                NetworkCredential = new NetworkCredential("EtcReporter", "etcsupercomputer");
+            }
+        }
 
-            //report.ReportServerUrl = ServerUrl;
-            //report.ReportPath = ReportPath;
-            //report.ReportServerCredentials.NetworkCredentials = NetworkCredential;
-
-
+        private void FormServerReport_Load(object sender, EventArgs e)
+        {
             ServerReport report = this.reportViewer1.ServerReport;
-            NetworkCredential = new NetworkCredential("EtcReporter", "etcsupercomputer");
-            report.ReportServerUrl = new System.Uri("http://192.168.1.105/reportserver", System.UriKind.Absolute);
-            report.ReportPath = "/EtcCenterReports/zyy测试报表";
+
+            report.ReportServerUrl = ServerUrl;
+            report.ReportPath = ReportPath;
             report.ReportServerCredentials.NetworkCredentials = NetworkCredential;
+
             if (ReportParameters.Count > 0)
             {
                 report.SetParameters(ReportParameters);
             }
+
             this.reportViewer1.RefreshReport();
         }
     }

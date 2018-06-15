@@ -5,6 +5,8 @@ Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BI_Deb_Studio报表开发�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormServerReport_报表控件调用服务器报表", "FormServerReport_报表控件调用服务器报表\FormServerReport_报表控件调用服务器报表.csproj", "{7D0A9AD1-A3A8-4281-A099-CEC98D220891}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "教程", "教程", "{CDAFC800-8A58-4EE8-BEED-609E15A36FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
