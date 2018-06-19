@@ -16,6 +16,10 @@
       <Name>终极报表测试.rdl</Name>
       <FullPath>终极报表测试.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>存储过程数据集报表.rdl</Name>
+      <FullPath>存储过程数据集报表.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
