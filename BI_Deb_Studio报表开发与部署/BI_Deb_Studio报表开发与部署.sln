@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormServerReport_报表控�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "教程", "教程", "{CDAFC800-8A58-4EE8-BEED-609E15A36FDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDLC", "RDLC\RDLC.csproj", "{4890B51F-5D39-4572-8330-249A32EF9DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "水晶报表", "水晶报表\水晶报表.csproj", "{CA024137-069B-4180-8F11-D01C7F5797DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,18 @@ Global
 		{7D0A9AD1-A3A8-4281-A099-CEC98D220891}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{7D0A9AD1-A3A8-4281-A099-CEC98D220891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0A9AD1-A3A8-4281-A099-CEC98D220891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4890B51F-5D39-4572-8330-249A32EF9DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4890B51F-5D39-4572-8330-249A32EF9DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4890B51F-5D39-4572-8330-249A32EF9DC0}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{4890B51F-5D39-4572-8330-249A32EF9DC0}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{4890B51F-5D39-4572-8330-249A32EF9DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4890B51F-5D39-4572-8330-249A32EF9DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA024137-069B-4180-8F11-D01C7F5797DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA024137-069B-4180-8F11-D01C7F5797DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA024137-069B-4180-8F11-D01C7F5797DB}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA024137-069B-4180-8F11-D01C7F5797DB}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{CA024137-069B-4180-8F11-D01C7F5797DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA024137-069B-4180-8F11-D01C7F5797DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

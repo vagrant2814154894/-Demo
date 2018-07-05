@@ -1,0 +1,12 @@
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\bin\Debug\RDLC.exe.config
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\bin\Debug\RDLC.exe
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\bin\Debug\RDLC.pdb
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\ResolveAssemblyReference.cache
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RDLC.Form1.resources
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RDLC.Properties.Resources.resources
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RDLC.csproj.GenerateResource.Cache
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RdlCompile.cache
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RdlCompile.compiled
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RDLC.exe
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RDLC.pdb
+D:\-Demo\BI_Deb_Studio报表开发与部署\RDLC\obj\Debug\RDLC.Form2.resources
