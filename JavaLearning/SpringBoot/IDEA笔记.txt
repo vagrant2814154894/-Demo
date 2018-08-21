@@ -1,0 +1,9 @@
+1,java -jar target/girl-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
+
+使用之前，必须要用mvn install重新编译，否则target里面都是历史数据。
+
+
+2,快捷键:
+
+
+Alt+Insert  生成构造方法
