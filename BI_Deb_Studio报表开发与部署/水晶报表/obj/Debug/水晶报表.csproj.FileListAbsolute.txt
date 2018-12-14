@@ -1,0 +1,9 @@
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\bin\Debug\水晶报表.exe.config
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\bin\Debug\水晶报表.exe
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\bin\Debug\水晶报表.pdb
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\obj\Debug\ResolveAssemblyReference.cache
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\obj\Debug\水晶报表.Form1.resources
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\obj\Debug\水晶报表.Properties.Resources.resources
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\obj\Debug\水晶报表.csproj.GenerateResource.Cache
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\obj\Debug\水晶报表.exe
+D:\-Demo\BI_Deb_Studio报表开发与部署\水晶报表\obj\Debug\水晶报表.pdb
